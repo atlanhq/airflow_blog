@@ -1,0 +1,4 @@
+cssselect==1.0.1
+pdfminer==20140328
+PyPDF2==1.26.0
+requests==2.12.1
