@@ -11,5 +11,3 @@ $ pip install -r requirements.txt
 Make sure you have Airflow set up on your machine. You can check out this [link](http://site.clairvoyantsoft.com/installing-and-configuring-apache-airflow/) to do that.
 
 Finally, place the the python files inside your Airflow `DAG_FOLDER` and you should be good to go. :cake:
-
-<img src="http://i65.tinypic.com/9h4ajs.png" align="centre" />
