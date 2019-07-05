@@ -186,6 +186,7 @@ def scrape_pdf(**kwargs):
                     with open(os.path.splitext(pdf)[0] + '.csv', 'w') as o:
                         writer = csv.writer(o, delimiter=',', quoting=csv.QUOTE_ALL, quotechar='"')
                         for d in data:
+                            dd = map(lambda x: x.encode('utf-8'), d)
                             writer.writerow(d)
     else:
         print 'no pdfs to scrape'
